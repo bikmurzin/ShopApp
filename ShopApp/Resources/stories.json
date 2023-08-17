@@ -6,27 +6,27 @@
     },
     {
         "id": 2,
-        "imageName": "logo",
+        "imageName": "nov1",
         "text": "Мы в соцсетях"
     },
     {
         "id": 3,
-        "imageName": "logo",
+        "imageName": "nov2",
         "text": "Рецепт недели"
     },
     {
         "id": 4,
-        "imageName": "logo",
+        "imageName": "nov3",
         "text": "Конкурсы в соцсетях"
     },
     {
         "id": 5,
-        "imageName": "logo",
+        "imageName": "nov4",
         "text": "Chip-Chop"
     },
     {
         "id": 6,
-        "imageName": "logo",
+        "imageName": "nov5",
         "text": "Новинки недели"
     }
 ]

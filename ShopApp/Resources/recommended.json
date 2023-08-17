@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "imageName": "cola",
+        "imageName": "clean1",
         "price": "3699.90",
         "isPriceReduced": false,
         "oldPrice": "5450.90",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "imageName": "cola",
+        "imageName": "care1",
         "price": "399.90",
         "isPriceReduced": true,
         "oldPrice": "550.90",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "imageName": "cola",
+        "imageName": "nov1",
         "price": "399.90",
         "isPriceReduced": false,
         "oldPrice": "550.90",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "imageName": "cola",
+        "imageName": "shah1",
         "price": "399.90",
         "isPriceReduced": false,
         "oldPrice": "550.90",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "imageName": "cola",
+        "imageName": "nov2",
         "price": "399.90",
         "isPriceReduced": true,
         "oldPrice": "550.90",

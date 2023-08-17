@@ -15,6 +15,4 @@ struct Promotion: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
-    
-    var text: String
 }

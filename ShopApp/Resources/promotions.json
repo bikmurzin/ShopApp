@@ -2,31 +2,25 @@
     {
         "id": 1,
         "imageName": "promotion",
-        "text": "Привилегии «Мой SPAR»"
     },
     {
         "id": 2,
-        "imageName": "promotion",
-        "text": "Мы в соцсетях"
+        "imageName": "video1",
     },
     {
         "id": 3,
-        "imageName": "promotion",
-        "text": "Рецепт недели"
+        "imageName": "video2",
     },
     {
         "id": 4,
-        "imageName": "promotion",
-        "text": "Конкурсы в соцсетях"
+        "imageName": "video3",
     },
     {
         "id": 5,
-        "imageName": "promotion",
-        "text": "Chip-Chop"
+        "imageName": "video4",
     },
     {
         "id": 6,
-        "imageName": "promotion",
-        "text": "Новинки недели"
+        "imageName": "video5",
     }
 ]

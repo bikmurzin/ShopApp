@@ -21,30 +21,35 @@ struct ContentView: View {
         
         TabView(selection: $selection) {
             MainScreen()
+                .preferredColorScheme(.light)
                 .tabItem{
                     Label("Главная", systemImage: "house.circle")
                 }
                 .tag(Tab.main)
             
             MainScreen()
+                .preferredColorScheme(.light)
                 .tabItem{
                     Label("Каталог", systemImage: "square.grid.2x2")
                 }
                 .tag(Tab.catalog)
             
             MainScreen()
+                .preferredColorScheme(.light)
                 .tabItem{
                     Label("Корзина", systemImage: "basket")
                 }
                 .tag(Tab.basket)
             
             MainScreen()
+                .preferredColorScheme(.light)
                 .tabItem{
                     Label("Профиль", systemImage: "person.crop.circle")
                 }
                 .tag(Tab.profile)
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
