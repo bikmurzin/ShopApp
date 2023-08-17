@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imageName": "care1",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "bigDiscount"
+    },
+    {
+        "id": 2,
+        "imageName": "care2",
+        "price": "438.90",
+        "isPriceReduced": false,
+        "oldPrice": "545.90",
+        "unit": "100г",
+        "promotion": "novelty"
+    },
+    {
+        "id": 3,
+        "imageName": "care3",
+        "price": "220.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "кг",
+        "promotion": "priceWithCard"
+    },
+    {
+        "id": 4,
+        "imageName": "care4",
+        "price": "199.90",
+        "isPriceReduced": false,
+        "oldPrice": "349.90",
+        "unit": "шт",
+        "promotion": "superPrice"
+    },
+    {
+        "id": 5,
+        "imageName": "care5",
+        "price": "399.90",
+        "isPriceReduced": false,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "novelty"
+    },
+    {
+        "id": 6,
+        "imageName": "care6",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "549.90",
+        "unit": "шт",
+        "promotion": "priceWithCard"
+    }
+]

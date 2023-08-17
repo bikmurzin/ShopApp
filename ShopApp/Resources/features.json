@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "imageName": "coffee",
+        "text": "Абонемент на кофе"
+    },
+    {
+        "id": 2,
+        "imageName": "coffee",
+        "text": "Мои скидки"
+    },
+    {
+        "id": 3,
+        "imageName": "coffee",
+        "text": "Доставка за 1 час"
+    },
+    {
+        "id": 4,
+        "imageName": "coffee",
+        "text": "SPAR Wine"
+    },
+    {
+        "id": 5,
+        "imageName": "coffee",
+        "text": "Карта в подарок"
+    },
+    {
+        "id": 6,
+        "imageName": "coffee",
+        "text": "Списки покупок"
+    },
+    {
+        "id": 7,
+        "imageName": "coffee",
+        "text": "Доставка"
+    },
+    {
+        "id": 8,
+        "imageName": "coffee",
+        "text": "Закажи и забери"
+    },
+    {
+        "id": 9,
+        "imageName": "coffee",
+        "text": "Чат поддержки"
+    },
+    {
+        "id": 10,
+        "imageName": "coffee",
+        "text": "Мои адреса"
+    },
+    {
+        "id": 11,
+        "imageName": "coffee",
+        "text": "Магазины рядом"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "imageName": "logo",
+        "text": "Привилегии «Мой SPAR»"
+    },
+    {
+        "id": 2,
+        "imageName": "logo",
+        "text": "Мы в соцсетях"
+    },
+    {
+        "id": 3,
+        "imageName": "logo",
+        "text": "Рецепт недели"
+    },
+    {
+        "id": 4,
+        "imageName": "logo",
+        "text": "Конкурсы в соцсетях"
+    },
+    {
+        "id": 5,
+        "imageName": "logo",
+        "text": "Chip-Chop"
+    },
+    {
+        "id": 6,
+        "imageName": "logo",
+        "text": "Новинки недели"
+    }
+]

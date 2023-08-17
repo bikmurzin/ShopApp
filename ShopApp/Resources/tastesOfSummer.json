@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imageName": "tast1",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "bigDiscount"
+    },
+    {
+        "id": 2,
+        "imageName": "tast2",
+        "price": "438.90",
+        "isPriceReduced": false,
+        "oldPrice": "545.90",
+        "unit": "100г",
+        "promotion": "novelty"
+    },
+    {
+        "id": 3,
+        "imageName": "tast3",
+        "price": "220.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "кг",
+        "promotion": "priceWithCard"
+    },
+    {
+        "id": 4,
+        "imageName": "tast4",
+        "price": "199.90",
+        "isPriceReduced": false,
+        "oldPrice": "349.90",
+        "unit": "шт",
+        "promotion": "superPrice"
+    },
+    {
+        "id": 5,
+        "imageName": "tast5",
+        "price": "399.90",
+        "isPriceReduced": false,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "novelty"
+    },
+    {
+        "id": 6,
+        "imageName": "tast6",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "549.90",
+        "unit": "шт",
+        "promotion": "priceWithCard"
+    }
+]

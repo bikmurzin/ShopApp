@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imageName": "cola",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "novelty"
+    },
+    {
+        "id": 2,
+        "imageName": "cola",
+        "price": "3699.90",
+        "isPriceReduced": false,
+        "oldPrice": "5450.90",
+        "unit": "100г",
+        "promotion": "bigDiscount"
+    },
+    {
+        "id": 3,
+        "imageName": "cola",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "кг",
+        "promotion": "priceWithCard"
+    },
+    {
+        "id": 4,
+        "imageName": "cola",
+        "price": "399.90",
+        "isPriceReduced": false,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "superPrice"
+    },
+    {
+        "id": 5,
+        "imageName": "cola",
+        "price": "399.90",
+        "isPriceReduced": false,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "novelty"
+    },
+    {
+        "id": 6,
+        "imageName": "cola",
+        "price": "399.90",
+        "isPriceReduced": true,
+        "oldPrice": "550.90",
+        "unit": "шт",
+        "promotion": "priceWithCard"
+    }
+]
