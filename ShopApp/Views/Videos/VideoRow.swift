@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct VideoRow: View {
-    var videos: [JustImage]
-    var text: String
+    @EnvironmentObject var modelData: ModelData
+    var text: String = "Видео"
     
     @State var currentIndex: Int = 0
     
@@ -22,7 +22,7 @@ struct VideoRow: View {
             }
             .padding(.leading, 10)
             
-            Carousel(index: $currentIndex, items: videos) { video in
+            Carousel(index: $currentIndex, items: modelData.videos) { video in
                 GeometryReader { proxy in
                     let size = proxy.size
                     
@@ -37,6 +37,7 @@ struct VideoRow: View {
 
 struct VideoRow_Previews: PreviewProvider {
     static var previews: some View {
-        VideoRow(videos: ModelData().videos, text: "Видео")
+        VideoRow()
+            .environmentObject(ModelData())
     }
 }

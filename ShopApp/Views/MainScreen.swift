@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainScreen: View {
-    let modelData = ModelData()
+    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         NavigationView {
@@ -17,27 +17,27 @@ struct MainScreen: View {
                 ScrollView {
                     
                     LazyVStack(spacing: 20) {
-                        StoryRow(stories: modelData.stories)
-                        PromotionRow(promotions: modelData.promotions)
+                        StoryRow()
+                        PromotionRow()
                         CardView()
-                        FeatureRow(features: modelData.features)
+                        FeatureRow()
                         
                         DiscountRow(discounts: modelData.recommended, text: "Рекомендуем")
                         DiscountRow(discounts: modelData.sweetMoods, text: "Сладкое настроение")
                         DiscountRow(discounts: modelData.shahlics, text: "Шашлыки на Ура")
                         
-                        SpecialRow(specials: modelData.special, text: "Специально для вас")
+                        SpecialRow()
                         
                         DiscountRow(discounts: modelData.forKids, text: "Для Детей")
                         DiscountRow(discounts: modelData.tastesOfSummer, text: "Вкусы лета")
                     }
                     LazyVStack(spacing: 20) {
-                        VideoRow(videos: modelData.videos, text: "Видео")
+                        VideoRow()
                         
                         DiscountRow(discounts: modelData.weLoveFresh, text: "We Love Fresh")
                         DiscountRow(discounts: modelData.cleannessAndBeauty, text: "Чистота и красота")
                         
-                        BrandRow(brands: modelData.brands, text: "Бренды")
+                        BrandRow()
                         
                         DiscountRow(discounts: modelData.careOfChildren, text: "С заботой о детях")
                         DiscountRow(discounts: modelData.novelties, text: "Новинки SPAR")
@@ -77,5 +77,6 @@ struct MainScreen: View {
 struct MainScreen_Previews: PreviewProvider {
     static var previews: some View {
         MainScreen()
+            .environmentObject(ModelData())
     }
 }

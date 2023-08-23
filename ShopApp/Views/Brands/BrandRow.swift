@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct BrandRow: View {
-    var brands: [JustImage]
-    var text: String
+    @EnvironmentObject var modelData: ModelData
+    var text: String = "Бренды"
     
     var body: some View {
         VStack {
@@ -22,7 +22,7 @@ struct BrandRow: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top) {
-                    ForEach(brands) { brand in
+                    ForEach(modelData.brands) { brand in
                         BrandView(brand: brand)
                     }
                 }
@@ -34,6 +34,7 @@ struct BrandRow: View {
 
 struct BrandRow_Previews: PreviewProvider {
     static var previews: some View {
-        BrandRow(brands: ModelData().brands, text: "Бренды")
+        BrandRow()
+            .environmentObject(ModelData())
     }
 }

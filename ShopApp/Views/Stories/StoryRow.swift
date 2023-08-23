@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct StoryRow: View {
-    let stories: [Story]
+    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .top, spacing: 10) {
-                ForEach(stories) { story in
+                ForEach(modelData.stories) { story in
                     StoryView(story: story)
                 }
             }
@@ -25,6 +25,7 @@ struct StoryRow: View {
 
 struct StoryRow_Previews: PreviewProvider {
     static var previews: some View {
-        StoryRow(stories: ModelData().stories)
+        StoryRow()
+            .environmentObject(ModelData())
     }
 }

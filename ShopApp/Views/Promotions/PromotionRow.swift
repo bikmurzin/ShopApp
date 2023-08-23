@@ -9,12 +9,12 @@ import SwiftUI
 
 
 struct PromotionRow: View {
-    var promotions: [Promotion]
+    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .top) {
-                ForEach(promotions) { promotion in
+                ForEach(modelData.promotions) { promotion in
                     PromotionView(promotion: promotion)
                 }
             }
@@ -25,6 +25,7 @@ struct PromotionRow: View {
 
 struct PromotionRow_Previews: PreviewProvider {
     static var previews: some View {
-        PromotionRow(promotions: ModelData().promotions)
+        PromotionRow()
+            .environmentObject(ModelData())
     }
 }

@@ -31,7 +31,7 @@ struct Carousel<Content: View,T: Identifiable>: View {
             HStack(spacing: spacing){
                 ForEach(list){item in
                     content(item)
-                        .frame(width: proxy.size.width - trailingSpace, height: 100)
+                        .frame(width: abs(proxy.size.width - trailingSpace), height: 100)
                 }
             }
             .padding(.horizontal,spacing)
@@ -51,6 +51,7 @@ struct Carousel<Content: View,T: Identifiable>: View {
                         index = max(min(currentIndex + Int(roundIndex), list.count - 1), 0)
                     })
             )
+            
         }
         .animation(.easeInOut, value: offset == 0)
         

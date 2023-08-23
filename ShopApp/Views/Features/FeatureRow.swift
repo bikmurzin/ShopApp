@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct FeatureRow: View {
-    var features: [Feature]
+    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .top, spacing: 12) {
-                ForEach(features) { feature in
+                ForEach(modelData.features) { feature in
                     FeatureView(feature: feature)
                 }
             }
@@ -25,6 +25,6 @@ struct FeatureRow: View {
 
 struct FeatureRow_Previews: PreviewProvider {
     static var previews: some View {
-        FeatureRow(features: ModelData().features)
+        FeatureRow()
     }
 }

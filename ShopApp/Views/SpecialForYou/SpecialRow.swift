@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct SpecialRow: View {
-    var specials: [Special]
-    var text: String
+    @EnvironmentObject var modelData: ModelData
+    var text: String = "Специально для вас"
     
     var body: some View {
         VStack {
@@ -21,7 +21,7 @@ struct SpecialRow: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top ,spacing: 12) {
-                    ForEach(specials, id: \.id) { special in
+                    ForEach(modelData.special, id: \.id) { special in
                         SpecialView(special: special)
                     }
                 }
@@ -34,6 +34,7 @@ struct SpecialRow: View {
 
 struct SpecialRow_Previews: PreviewProvider {
     static var previews: some View {
-        SpecialRow(specials: ModelData().special, text: "Специально для вас")
+        SpecialRow()
+            .environmentObject(ModelData())
     }
 }
